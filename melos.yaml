@@ -1,0 +1,8 @@
+name: my_anime_list_app
+
+packages:
+  - packages/**
+
+scripts:
+  analyze:
+    exec: dart analyze .
