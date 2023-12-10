@@ -1,4 +1,9 @@
+import 'package:core/core.dart';
+
 abstract class AuthRepository {
-  Future<bool> authenticate({required String email, required String password});
-  Future<void> logout();
+  Future<Either<Failure, bool>> authenticate({
+    required String email,
+    required String password,
+  });
+  Future<Either<Failure, void>> logout();
 }
