@@ -3,6 +3,7 @@
 /// More dartdocs go here.
 library;
 
-export 'src/domain_base.dart';
+export 'package:domain/src/repository/repository.dart';
+export 'package:domain/src/usecase/usecase.dart';
 
 // TODO: Export any libraries intended for clients of this package.

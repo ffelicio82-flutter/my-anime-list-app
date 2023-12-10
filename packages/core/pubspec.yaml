@@ -1,16 +1,15 @@
-name: domain
+name: core
 description: A starting point for Dart libraries or applications.
 version: 1.0.0
 publish_to: none
 
 environment:
-  sdk: ^3.2.0
+  sdk: ^3.2.2
 
 # Add regular dependencies here.
 dependencies:
-  core:
-    path: ../core
+  equatable: ^2.0.5
 
 dev_dependencies:
-  lints: ^3.0.0
+  lints: ^2.1.1
   test: ^1.24.9
