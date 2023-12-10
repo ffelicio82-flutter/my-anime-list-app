@@ -25,4 +25,7 @@ class AuthParams implements Params {
 
   @override
   List<Object> get props => [email, password];
+
+  @override
+  bool? get stringify => true;
 }
